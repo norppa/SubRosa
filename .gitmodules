@@ -1,0 +1,3 @@
+[submodule "modules/CocktailIndexServer"]
+	path = modules/CocktailIndexServer
+	url = git@github.com:norppa/CocktailIndexServer.git
