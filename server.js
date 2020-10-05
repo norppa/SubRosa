@@ -6,9 +6,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-
-
 app.use('/cocktailindex', require('./modules/CocktailIndexServer/routers/router'))
+app.use('/binder', require('./modules/BinderServer/routers/router'))
 
 app.use('/', (req, res) => {
     res.send('SubRosa Server')

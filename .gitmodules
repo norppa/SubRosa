@@ -1,3 +1,6 @@
 [submodule "modules/CocktailIndexServer"]
 	path = modules/CocktailIndexServer
 	url = git@github.com:norppa/CocktailIndexServer.git
+[submodule "modules/BinderServer"]
+	path = modules/BinderServer
+	url = git@github.com:norppa/BinderServer.git
